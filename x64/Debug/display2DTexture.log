@@ -1,0 +1,16 @@
+﻿  main.cpp
+C:\Users\Michael St\source\repos\display2DTexture\shader.h(54,40): warning C4101: "e": Unreferenzierte lokale Variable
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(101,18): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(124,28): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(125,29): warning C4244: "Argument": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(135,22): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(174,15): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(177,15): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(185,29): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(192,29): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\Michael St\source\repos\display2DTexture\main.cpp(206,29): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+MSVCRTD.lib(initializers.obj) : warning LNK4098: Standardbibliothek "msvcrt.lib" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""struct GLFWwindow * __cdecl initializeWindow(int *,unsigned int,unsigned int)" (?initializeWindow@@YAPEAUGLFWwindow@@PEAHII@Z)" in Funktion "main".
+    Hinweis zu Symbolen, die definiert wurden und möglicherweise übereinstimmen:
+      "struct GLFWwindow * __cdecl initializeWindow(int *,unsigned int const &,unsigned int const &)" (?initializeWindow@@YAPEAUGLFWwindow@@PEAHAEBI1@Z)
+C:\Users\Michael St\source\repos\display2DTexture\x64\Debug\display2DTexture.exe : fatal error LNK1120: 1 nicht aufgelöste Externe

@@ -1,0 +1,2 @@
+﻿  glad.c
+C:\Users\Michael St\source\repos\display2DTexture\glad.c(25,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "glad/glad.h": No such file or directory
