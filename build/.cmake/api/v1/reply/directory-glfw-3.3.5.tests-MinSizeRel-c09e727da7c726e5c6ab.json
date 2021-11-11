@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "C:/Users/mista/Documents/GitHub/GridFluidSim3D/mandelbrotx64/GLFW/bin/tests",
+		"source" : "glfw-3.3.5/tests"
+	}
+}

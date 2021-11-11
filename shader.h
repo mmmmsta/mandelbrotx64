@@ -3,17 +3,13 @@
 #ifndef SHADER_H
 #define SHADER_H
 
-#include <glad/glad.h>
+
 
 #include <string>
 #include <fstream>
 #include <sstream>
 #include <iostream>
 
-
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
-#include "glm/gtc/type_ptr.hpp"
 
 // shader class from learn open gl website
 class Shader
@@ -35,11 +31,17 @@ public:
         // ensure ifstream objects can throw exceptions:
         vShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
         fShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+
+        std::string currentShader = "VERTEX";
         try
         {
             // open files
+            
             vShaderFile.open(vertexPath);
+
+            currentShader = "FRAGMENT";
             fShaderFile.open(fragmentPath);
+
             std::stringstream vShaderStream, fShaderStream;
             // read file's buffer contents into streams
             vShaderStream << vShaderFile.rdbuf();
@@ -53,7 +55,7 @@ public:
         }
         catch (std::ifstream::failure &e)
         {
-            std::cout << "ERROR::SHADER::FILE_NOT_SUCCESFULLY_READ" << std::endl;
+            std::cout << "ERROR::"<<currentShader<<"::SHADER::FILE_NOT_SUCCESFULLY_READ" << std::endl;
         }
         const char* vShaderCode = vertexCode.c_str();
         const char* fShaderCode = fragmentCode.c_str();

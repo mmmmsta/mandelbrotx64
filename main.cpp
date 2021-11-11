@@ -1,8 +1,7 @@
-#pragma comment(lib, "libs/glfw3.lib")
-
-#include "glad/glad.h"
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 #include "KHR/khrplatform.h"
-#include "GLFW/glfw3.h"
+
 
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
@@ -73,6 +72,8 @@ int main() {
 		"  Space: switch to fullscreen \n"
 		"  J: begin with julia set iteration at c = -0.6 + i0.6 \n"
 		"  2,3,4,5: enable / disable z^n iteration \n"
+		"  P: switch colors \n"
+		"  I: invert colors  \n"
 		"  ________________________________________________ \n \n";
 
 	std::cout << text;
@@ -106,7 +107,8 @@ int main() {
 	}
 
 	// create shader
-	Shader shader("shaders/basic.vert", "shaders/mandelbrot.frag");
+	
+	Shader shader("C:\\Users\\mista\\Documents\\GitHub\\GridFluidSim3D\\mandelbrotx64\\shaders\\basic.vert", "C:\\Users\\mista\\Documents\\GitHub\\GridFluidSim3D\\mandelbrotx64\\shaders\\mandelbrot.frag");
 	shader.use();
 
 	// create vao

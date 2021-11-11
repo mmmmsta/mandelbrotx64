@@ -1,0 +1,10 @@
+^T:\CLOUD\C++\GLFW-3.3.5\TESTS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -ST:/Cloud/C++/glfw-3.3.5 -BT:/Cloud/C++/glfw-3.3.5/build --check-stamp-file T:/Cloud/C++/glfw-3.3.5/build/tests/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

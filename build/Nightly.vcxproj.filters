@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mista\Documents\GitHub\GridFluidSim3D\mandelbrotx64\build\CMakeFiles\eea74571062905f23131abd05a3c5c3d\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\mista\Documents\GitHub\GridFluidSim3D\mandelbrotx64\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\mista\Documents\GitHub\GridFluidSim3D\mandelbrotx64\build\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2C742058-DDFE-3529-A141-85C0B842E950}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

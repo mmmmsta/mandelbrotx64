@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"glfw-3.3.5/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 189,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"C:/Users/mista/Documents/GitHub/GridFluidSim3D/mandelbrotx64/GLFW/bin/src/Release/glfw3.lib"
+			],
+			"targetId" : "glfw::@acf1a16186f906563773",
+			"targetIndex" : 14,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "C:/Users/mista/Documents/GitHub/GridFluidSim3D/mandelbrotx64/GLFW/bin/src",
+		"source" : "glfw-3.3.5/src"
+	}
+}

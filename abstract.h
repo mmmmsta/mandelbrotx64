@@ -1,4 +1,3 @@
-#pragma comment(lib, "libs/glfw3.lib")
 
 #include "glad/glad.h"
 #include "KHR/khrplatform.h"

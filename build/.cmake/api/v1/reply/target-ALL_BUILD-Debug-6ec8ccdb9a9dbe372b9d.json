@@ -1,0 +1,127 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"glfw-3.3.5/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "glfw::@acf1a16186f906563773"
+		},
+		{
+			"id" : "wave::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "offscreen::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "gears::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "sharing::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "heightmap::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "particles::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "boing::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "simple::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "splitview::@925142dee8ce3e0f3991"
+		},
+		{
+			"id" : "reopen::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "msaa::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "tearing::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "iconify::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "cursor::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "opacity::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "glfwinfo::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "empty::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "threads::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "icon::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "title::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "joysticks::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "windows::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "triangle-vulkan::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "inputlag::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "clipboard::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "monitors::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "events::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "gamma::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "timeout::@fd02093ae7b69c2fc6b8"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@50bddc1a1180364aad98",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "C:/Users/mista/Documents/GitHub/GridFluidSim3D/mandelbrotx64/GLFW/bin",
+		"source" : "glfw-3.3.5"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
